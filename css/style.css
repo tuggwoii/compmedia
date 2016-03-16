@@ -1,0 +1,37 @@
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	font-family: 'Dosis', sans-serif;
+    font-size:20px;
+}
+h1 {
+	color: #444;
+}
+p { 
+	color: #666;
+}
+.container {
+    padding:55px 0;
+}
+form {
+    margin-top:50px;
+    margin-bottom:50px;
+}
+#accordion, #accordion2 {
+    margin-top:50px;
+}
+.panel-title {
+    font-size:20px;
+}
+label, input.form-control {
+    font-size:20px;
+}
+.button {
+    margin-top:20px;
+}
+.remove {
+    float:right;
+    color:red;
+    cursor:pointer;
+}

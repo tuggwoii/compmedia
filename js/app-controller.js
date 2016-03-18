@@ -42,7 +42,7 @@ app.controller('AppController', function ($scope, $http, $timeout) {
     $scope.addStudent= function () {
         $scope.students.push({
             name: 'New Student',
-            uid: $scope.students.length
+            uid: $scope.students[$scope.students.length-1].uid + 1
         });
     };
 
